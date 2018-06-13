@@ -1,0 +1,19 @@
+{
+    "name": "francoischaumont/xml-read",
+    "description": "Read and parse XML files",
+    "authors": [
+        {
+            "name": "Francois Chaumont",
+            "email": "funcois@outlook.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FC\\": "src/"
+        }
+    }
+}

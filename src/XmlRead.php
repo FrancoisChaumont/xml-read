@@ -1,9 +1,11 @@
 <?php
 
+namespace FC;
+
 /**
  * class to read & parse XML files
  */
-abstract class Xml {
+abstract class XmlRead {
 /* constants */
     const USER_ERROR = true;    // used by setErrorHandler()
     const SYSTEM_ERROR = false; // used by setErrorHandler()
@@ -31,7 +33,7 @@ abstract class Xml {
      * @param string $parXmlString string with XML content ("<tag>value</tag>")
      * @return SimpleXMLElement
      */
-    public static function loadFromString(string $parXmlString) {
+    public static function loadFromString(string $parXmlString): SimpleXMLElement {
         self::clearErrors();
 
         if ($parXmlString == "") { $xml = false; }
@@ -48,7 +50,7 @@ abstract class Xml {
      * @param string $parXmlFile path to XML file
      * @return SimpleXMLElement
      */
-    public static function loadFromFile(string $parXmlFile) {
+    public static function loadFromFile(string $parXmlFile): SimpleXMLElement {
         self::clearErrors();
         
         if (!file_exists($parXmlFile)) { $xml = false; }
@@ -64,7 +66,7 @@ abstract class Xml {
      *
      * @return string
      */
-    public static function getErrors() {
+    public static function getErrors(): string {
         $errors = libxml_get_errors();
         $errorTxt = '';
 
@@ -95,5 +97,4 @@ abstract class Xml {
     }
 
 }
-	
 	
