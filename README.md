@@ -5,7 +5,7 @@ Simple PHP library to read and parse XML files.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Requirements
-PHP 7.0+
+PHP 7.1+
 
 ### Installation
 Just include the library and you are ready to go.
