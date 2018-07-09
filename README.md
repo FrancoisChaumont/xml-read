@@ -26,7 +26,7 @@ No tests provided with this library. As it is a rather short library, you should
 ## Authors
 * **Francois Chaumont** - *Initial work* - [FrancoisChaumont](https://github.com/FrancoisChaumont)
 
-See also the list of [contributors](https://github.com/FrancoisChaumont/db/graphs/contributors) who particpated in this project.
+See also the list of [contributors](https://github.com/FrancoisChaumont/xml-read/graphs/contributors) who particpated in this project.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
