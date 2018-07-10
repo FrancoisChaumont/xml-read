@@ -1,10 +1,5 @@
 # DEPRECATED
-
-![GitHub release](https://img.shields.io/github/release/FrancoisChaumont/xml-read.svg)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FrancoisChaumont/xml-read/issues)
-[![GitHub issues](https://img.shields.io/github/issues/FrancoisChaumont/xml-read.svg)](https://github.com/FrancoisChaumont/xml-read/issues)
-[![GitHub stars](https://img.shields.io/github/stars/FrancoisChaumont/xml-read.svg)](https://github.com/FrancoisChaumont/xml-read/stargazers)
-![Github All Releases](https://img.shields.io/github/downloads/FrancoisChaumont/xml-read/total.svg)
+**See [file-parsers](https://github.com/FrancoisChaumont/file-parsers) instead.**
 
 Simple PHP library to read and parse XML files.
 
