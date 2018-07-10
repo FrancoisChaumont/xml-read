@@ -1,6 +1,6 @@
 <?php
 
-namespace FC;
+namespace FC\XmlRead;
 
 /**
  * class to read & parse XML files
