@@ -15,7 +15,19 @@ These instructions will get you a copy of the project up and running on your loc
 PHP 7.1+
 
 ### Installation
-Just include the library and you are ready to go.
+Install this package with composer by simply adding the following to your composer.json file:  
+```
+"repositories": [
+    {
+        "url": "https://github.com/FrancoisChaumont/xml-read.git",
+        "type": "git"
+    }
+]
+```
+and running the following command:  
+```
+composer require francoischaumont/xml-read
+```
 
 ## Testing
 No tests provided with this library. As it is a rather short library, you should be able to get it reading through.
