@@ -1,4 +1,5 @@
 # DEPRECATED
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)  
 **See [file-parsers](https://github.com/FrancoisChaumont/file-parsers) instead.**
 
 Simple PHP library to read and parse XML files.
